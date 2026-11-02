@@ -5,7 +5,6 @@ namespace Lab4
         public double Task1(int[] vector)
         {
             double length = 0;
-
             // code here
             if (vector == null) return 0;
             double sum = 0;
@@ -15,7 +14,6 @@ namespace Lab4
             }
             length = Math.Sqrt(sum);
             // end
-
             return length;
         }
         public int Task2(int[] array, int P, int Q)
